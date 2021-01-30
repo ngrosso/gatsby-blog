@@ -25,7 +25,7 @@ export default class BlogIndexPage extends React.Component {
             Latest Stories
           </h1>
         </div>
-        <section className="section">
+        <section className="section zephi-white">
           <div className="container">
             <div className="content">
               <BlogRoll />
