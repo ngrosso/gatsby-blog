@@ -21,7 +21,7 @@ intro:
         mantenimiento, desarrollo de nuevas funcionalidades y soporte del
         sistema de facturación de los cementerios de Chacarita, Recoleta y
         Flores.
-    - image: /img/watea_logo.png
+    - image: /img/watea_logo.svg
       text: Mi segundo y actual trabajo es para la pequeña empresa Watea! la cual pude
         participar de mas de 10 proyectos entre sistemas de factura electronica
         entre los clientes y AFIP hasta el desarrollo de paginas web con el
