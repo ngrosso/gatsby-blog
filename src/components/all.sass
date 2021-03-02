@@ -11,6 +11,10 @@ $primary-invert: $zephi-white
 $body-color: #333
 $black: #2b2523
 
+//Override de colores
+footer a
+  color: #3fa1b7 !important
+
 a:hover
   color: #CC3700 !important
 
@@ -20,6 +24,9 @@ a:hover
 
 .white-text
   color: white !important
+
+.zephi-white-text
+  color: $zephi-white !important
 
 .section h1, .section h2, .section h3, .section h4
   color: $zephi-white !important
@@ -38,6 +45,11 @@ a:hover
 
 .navbar .navbar-menu
   box-shadow: none !important
+  background-color: $black
+
+//Override footer
+.zephi-margin-left
+  margin-left: 5%
 
 .content .taglist
   list-style: none
@@ -107,10 +119,13 @@ a:hover
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 0.5rem 0rem
   background-color: transparent
   bottom: 0
   width: 100%
+  box-shadow: 0 50vh 0 50vh $black
+  position: fixed
+  bottom: 0
 
 //Menu overrides
 $menu-item-color: $white-ter
